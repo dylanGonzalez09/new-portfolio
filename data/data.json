@@ -1,0 +1,109 @@
+{
+"experiences": [
+        {
+            "title": "Desarrollo de una aplicación móvil a la medida para cliente",
+            "startDate": "Julio 2025",
+            "endDate": "Septiembre 2025",
+            "company": "Freelance",
+            "description": "Desarrollé una aplicación móvil personalizada para un cliente utilizando FlutterFlow. La aplicación incluye funcionalidades específicas según los requisitos del cliente, como autenticación de usuarios, generación de reportes en excel e impresión de ticket mediante una impresora térmica.",
+            "achievements": ["Implementé una app móvil personalizada utilizando FlutterFlow", "Integré autenticación de usuarios acorde a los requisitos del cliente", "Desarrollé generación automática de reportes en Excel", "Añadí soporte para impresión de tickets en impresoras térmicas", "Entregué una solución funcional adaptada totalmente a las necesidades del cliente"]
+        },
+        {
+            "title": "Desarrollo de soluciones tecnológicas de asistencia para personas con discapacidad, divididas en dos aplicaciones complementarias",
+            "startDate": "Octubre 2024",
+            "endDate": "Febrero 2025",
+            "company": "RETINA, financiado por SENACYT",
+            "description": "Con el cargo de Estudiante Asistente de Investigación realicé una aplicación móvil para (Android e iOS) la cual permite la ubicación de adultos mayores con discapacidades en tiempo real mediante GPS, adicionalmente permite la configuración de zonas seguras y envío de alertas automáticas a cuidadores. También desarrollé una aplicación web tipo dashboard para administradores de la UTP, con el fin de gestionar los usuarios, roles y ubicaciones de forma centralizada.",
+            "achievements": ["Desarrollé apps web y móviles multiplataforma integradas para monitoreo en tiempo real", "Implementé geolocalización con zonas seguras y alertas push para cuidadores", "Construí un panel administrativo para gestionar usuarios, roles y ubicaciones", "Integré Next.js y React Native para un ecosistema multiplataforma unificado"]
+        },
+        {
+            "title": "Implementación de herramientas de tecnologías de asistencia para mejorar la calidad de vida de personas con discapacidad",
+            "startDate": "Septiembre 2023",
+            "endDate": "Febrero 2024",
+            "company": "RETINA, financiado por SENACYT",
+            "description": "Con el cargo de Estudiante Asistente de Investigación realicé una aplicación móvil para android, la cual consiste en la implementación de Herramientas de Tecnologías de Asistencia para Mejorar la Calidad de Vida de Personas con Discapacidad.",
+            "achievements": ["Implementé comunicación NFC para una gestión rápida y segura de medicamentos", "Desarrollé recordatorios automáticos que mejoraron la adherencia al tratamiento", "Optimicé la experiencia de adultos mayores mediante una interfaz simple e intuitiva", "Integré alertas para familiares que fortalecieron el seguimiento del paciente"]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Aplicación móvil desarrollada a la medida para cliente",
+            "description": "Desarrollé una aplicación móvil para la gestión de boletos de lotería, permitiendo registrar números o billetes para la venta y calcular automáticamente los montos a pagar. Además, integré la impresión de tickets mediante una impresora térmica y un panel de administración que permite exportar los datos a un archivo Excel en formato tabular.",
+            "technologies": ["FlutterFlow", "Supabase", "PostgreSQL"],
+            "link": "",
+            "github": "",
+            "image": "batisuerte.png",
+            "achievements": ["Implementé una app móvil que automatiza el registro manual y cálculo de pagos de boletos de lotería", "Añadí impresión de tickets utilizando una impresora térmica", "Desarrollé un panel administrativo con exportación de datos a Excel"]
+
+        },
+        {
+            "title": "Aplicación Android e IOS para la monitorización de personas mayores discapacitadas",
+            "description": "Desarrollé una aplicación web y otra móvil para Android e IOS en colaboración con el CEMCIT AIP, utilizando Next js para la aplicación web y la API y React Native con Expo para la aplicación Android e IOS. Permitiendo la monitorización para personas mayores con discapacidades, los cuidadores pueden monitorizar la ubicación, establecer zonas seguras y recibir alertas mediante notificaciones push. La aplicación web permite a los administradores de la UTP gestionar usuarios, roles y ubicaciones de forma centralizada.",
+            "technologies": ["Expo", "React Native", "Next JS", "MySQL", "Docker", "Figma"],
+            "link": "",
+            "github": "",
+            "image": "contigoapp.png",
+            "achievements": ["Construí un ecosistema web y móvil integrado para monitoreo en tiempo real de adultos mayores", "Implementé geolocalización, zonas seguras y alertas push para cuidadores", "Desarrollé un panel administrativo para gestionar usuarios, roles y ubicaciones desde la UTP"]
+
+        },
+        {
+            "title": "Aplicación Android para la Gestión y alertas de Medicamentos",
+            "description": "Desarrollé una aplicación móvil para Android en colaboración con el CEMCIT AIP, utilizando Java y tecnología NFC. Esta solución permite a los usuarios gestionar de manera eficiente sus medicamentos y enviar recordatorios automáticos tanto a los usuarios (adultos mayores) como a sus familiares, mejorando el control y seguimiento de tratamientos médicos.",
+            "technologies": ["Java", "SQLite", "NFC", "Android Studio"],
+            "link": "",
+            "github": "",
+            "image": "medicamentosapp.png",
+            "achievements": ["Integré tecnología NFC para una gestión rápida y segura de medicamentos", "Implementé recordatorios automáticos para mejorar el seguimiento de tratamientos", "Desarrollé una app enfocada en facilitar el control médico de adultos mayores y sus familiares"]
+
+        },
+        {
+            "title": "Exoplanets-AI",
+            "description": "Participé en el desarrollo del proyecto Exoplanets-AI, como parte de una Hackathon organizada por el streamer Midudev y Vercel. Durante este desafío colaborativo, implementamos un entorno 3D utilizando tecnologías como react-three-fiber y el AI SDK de Vercel para representar exoplanetas a escala real, combinando visualización interactiva y datos científicos reales obtenidos desde la API de la nasa.",
+            "technologies": ["Next JS", "Three JS", "Typescript", "AI SDK by Vercel"],
+            "link": "https://exoplanets-ai.vercel.app/",
+            "github": "https://github.com/dylanGonzalez09/exoplanets-ai",
+            "image": "exoplanetsai.png",
+            "achievements": ["Implementé un entorno 3D interactivo utilizando react-three-fiber", "Integré datos científicos reales desde la API de la NASA en la visualización", "Colaboré en una solución innovadora para la Hackathon del streamer Midudev y Vercel usando el AI SDK de Vercel"]
+
+        },
+        {
+            "title": "TesloShop E-commerce",
+            "description": "Completé un curso intensivo de 36.5 horas sobre Next.js v14, donde adquirí habilidades avanzadas en la implementación de sus nuevas características. Durante el curso, desarrollé un e-commerce completo, integrando funciones clave como autenticación de usuarios, gestión de carrito de compras y procesamiento de pagos en línea a través de PayPal.",
+            "technologies": ["Next JS", "Prisma", "Next Auth", "Typescript", "PostgreSQL", "PayPal", "Docker"],
+            "link": "https://tesloshop-ecommerce.vercel.app/",
+            "github": "https://github.com/dylanGonzalez09/tesloshop-ecommerce",
+            "image": "tesloshop.png",
+            "achievements": ["Dominié nuevas características de Next.js v14 mediante un curso intensivo de 36.5 horas", "Desarrollé un e-commerce completo con autenticación y gestión de carrito", "Integré pagos en línea utilizando PayPal para una experiencia de compra segura"]
+
+        },
+        {
+            "title": "AccesaYa - Aplicación web para localizar sanitarios y estacionamientos para discapacitados",
+            "description": "AccesaYa es una aplicación web desarrollada para participar en la JIC UTP, diseñado específicamente para mejorar la movilidad de las personas con discapacidad motriz en Panamá. Utilizando tecnología GPS, AccesaYa facilita la localización de baños y estacionamientos accesibles, optimizando así la independencia y comodidad de sus usuarios.",
+            "technologies": ["React JS", "Node.js", "Express", "MongoDB", "Leaflet.js"],
+            "link": "https://accesaya.vercel.app/",
+            "github": "https://github.com/dylanGonzalez09/proyecto-jic",
+            "image": "accesaya.png",
+            "achievements": ["Desarrollé una aplicación web enfocada en mejorar la movilidad accesible en Panamá", "Implementé localización en tiempo real de baños y estacionamientos accesibles", "Presenté el proyecto como propuesta innovadora en la JIC UTP"]
+
+        }
+    ],
+    "technologies": [
+        { "name": "React JS", "image": "reactjs.png" },
+        { "name": "NEXT JS", "image": "nextjs.png" },
+        { "name": "Mongo DB", "image": "mongodb.png" },
+        { "name": "MySQL", "image": "mysql.png" },
+        { "name": "PostgreSQL", "image": "postgresql.png" },
+        { "name": "Docker", "image": "docker.png" },
+        { "name": "Prisma", "image": "prisma.png" },
+        { "name": "Node JS", "image": "nodejs.png" },
+        { "name": "Python", "image": "python.png" },
+        { "name": "Java", "image": "java.png" },
+        { "name": "GIT", "image": "git.png" },
+        { "name": "GITHUB", "image": "github.png" },
+        { "name": "EXPO", "image": "expo.png" },
+        { "name": "Tailwind CSS", "image": "tailwindcss.png" },
+        { "name": "Typescript", "image": "typescript.png" },
+        { "name": "React Native", "image": "reactjs.png" },
+        { "name": "Supabase", "image": "supabase.png" }
+    ]
+}
