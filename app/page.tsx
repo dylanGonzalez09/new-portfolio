@@ -29,22 +29,22 @@ export default function Home() {
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-600/30 rounded-full mix-blend-screen filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
       </div>
       {/* Profile info */}
-      <div className="flex flex-col md:flex-row md:min-w-7xl md:max-w-7xl md:mx-auto justify-center gap-4 items-center min-h-screen relative">
-        <div className="">
+      <div className="flex flex-col md:flex-row md:min-w-7xl md:max-w-7xl md:mx-auto mt-8 md:mt-0 md:justify-center gap-4 items-center min-h-screen relative">
+        <div className="w-40 h-40 md:w-full md:h-full">
           <Image
             alt="Imagen de perfil"
             src={profileImage}
             className="rounded-full inset-ring shadow-xs"
           />
         </div>
-        <div className="flex flex-col gap-2 md:min-w-3xl md:max-w-3xl bg-red-200">
-          <span className="w-fit mx-auto mt-4 md:mt-0 md:mx-0 bg-background-badge border-white/40 border rounded-full p-2 shadow-lg shadow-background-badge/40">
+        <div className="flex flex-col gap-2 md:min-w-3xl md:max-w-3xl px-4">
+          <span className="text-sm md:text-md w-fit mx-auto mt-4 md:mt-0 md:mx-0 bg-background-badge border-white/40 border rounded-full p-2 shadow-lg shadow-background-badge/40">
             ✋ Disponible para proyectos
           </span>
           <div
-            className="text-7xl h-40
-             bg-linear-to-r from-purple-500 to-pink-500 
-             text-transparent bg-clip-text mx-auto md:mx-0"
+            className="md:text-7xl text-5xl h-30 md:h-40 w-full bg-linear-to-r from-purple-500 to-pink-500 
+             text-transparent bg-clip-text text-center md:text-left
+              mx-auto md:mx-0"
           >
             <Typewriter
               options={{
@@ -59,11 +59,11 @@ export default function Home() {
               }}
             />
           </div>
-          <p className="text-xl md:max-w-xl text-center md:text-left bg-red-500">
+          <p className="md:text-xl md:max-w-xl text-center md:text-left">
             Desarrollo aplicaciones web y móviles modernas, escalables y de alto
             rendimiento que convierten ideas en productos digitales exitosos.
           </p>
-          <div className="flex gap-4 mt-8">
+          <div className="flex justify-center md:justify-start gap-4 mt-4 md:mt-8">
             <button
               className="w-30 bg-linear-to-r from-indigo-700 to-purple-500 hover:from-indigo-900 hover:to-purple-700 p-2 rounded-md hover:cursor-pointer"
               onClick={() => scrollToView("contact")}
@@ -78,7 +78,7 @@ export default function Home() {
             </button>
           </div>
           <button
-            className="absolute bottom-30 right-0 left-0"
+            className="absolute bottom-18 md:bottom-30 right-0 left-0"
             onClick={() => scrollToView("experience")}
           >
             <ArrowBigDownDash
@@ -91,16 +91,18 @@ export default function Home() {
       {/* Experiencia laboral */}
       <div
         id="experience"
-        className="min-w-7xl max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center min-h-screen"
+        className="md:min-w-7xl md:max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center min-h-screen"
       >
         <h2
-          className="text-4xl bg-linear-to-r from-purple-500 to-pink-500 
+          className="text-2xl md:text-4xl bg-linear-to-r from-purple-500 to-pink-500 
              text-transparent bg-clip-text"
         >
           Experiencia laboral
         </h2>
-        <p>Mi trayectoria profesional en el desarrollo de software</p>
-        <div className="w-full mt-10">
+        <p className="text-center md:text-left">
+          Mi trayectoria profesional en el desarrollo de software
+        </p>
+        <div className="w-full mt-10 px-4">
           <ol className="relative border-s border-gray-700">
             {experiences.map((experience, index) => (
               <li className="mb-10 ms-4 flex flex-col gap-2" key={index}>
@@ -136,16 +138,18 @@ export default function Home() {
       {/* Proyectos destacados */}
       <div
         id="projects"
-        className="min-w-7xl max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center min-h-screen mt-40"
+        className="md:min-w-7xl md:max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center min-h-screen mt-40"
       >
         <h2
-          className="text-4xl bg-linear-to-r from-purple-500 to-pink-500 
+          className="text-2xl md:text-4xl bg-linear-to-r from-purple-500 to-pink-500 
              text-transparent bg-clip-text"
         >
           Proyectos destacados
         </h2>
-        <p>Algunos de mis proyectos más relevantes y sus resultados</p>
-        <div className="grid grid-cols-2 w-full mt-10 gap-8">
+        <p className="text-center md:text-left">
+          Algunos de mis proyectos más relevantes y sus resultados
+        </p>
+        <div className="md:grid md:grid-cols-2 w-full mt-10 flex flex-col gap-8 px-4">
           {projects.map((project, index) => (
             <div
               className="border border-purple-500 rounded-md hover:shadow-lg hover:shadow-purple-500/60 transition-shadow duration-300"
@@ -223,18 +227,20 @@ export default function Home() {
         </div>
       </div>
       {/* Tecnologias */}
-      <div className="min-w-7xl max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center mt-40">
+      <div className="md:min-w-7xl md:max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center mt-40">
         <h2
-          className="text-4xl bg-linear-to-r from-purple-500 to-pink-500 
+          className="text-2xl md:text-4xl bg-linear-to-r from-purple-500 to-pink-500 
              text-transparent bg-clip-text"
         >
           Tecnologías
         </h2>
-        <p>Stack tecnológico y herramientas que domino</p>
+        <p className="text-center md:text-left">
+          Stack tecnológico y herramientas que domino
+        </p>
         <div className="relative overflow-hidden w-full mt-10">
           {/* Fade lateral */}
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-40 bg-linear-to-r from-background to-transparent z-10"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-40 bg-linear-to-l from-background to-transparent z-10"></div>
+          <div className="pointer-events-none absolute inset-y-0 left-0 md:w-40 bg-linear-to-r from-background to-transparent z-10"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 md:w-40 bg-linear-to-l from-background to-transparent z-10"></div>
 
           {/* Carrusel infinito verdadero */}
           <div className="marquee flex whitespace-nowrap">
@@ -266,8 +272,8 @@ export default function Home() {
         </div>
         <div className="relative overflow-hidden w-full mt-10">
           {/* Fade lateral */}
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-40 bg-linear-to-r from-background to-transparent z-10"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-40 bg-linear-to-l from-background to-transparent z-10"></div>
+          <div className="pointer-events-none absolute inset-y-0 left-0 md:w-40 bg-linear-to-r from-background to-transparent z-10"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 md:w-40 bg-linear-to-l from-background to-transparent z-10"></div>
 
           {/* Carrusel infinito verdadero */}
           <div className="marquee-l flex whitespace-nowrap">
@@ -305,18 +311,20 @@ export default function Home() {
         </div>
       </div>
       {/* Contacto */}
-      <div className="min-w-7xl max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center mt-40 mb-40">
+      <div className="md:min-w-7xl md:max-w-7xl mx-auto flex justify-center flex-col gap-4 items-center mt-40 mb-40">
         <h2
-          className="text-4xl bg-linear-to-r from-purple-500 to-pink-500 
+          className="text-2xl md:text-4xl bg-linear-to-r from-purple-500 to-pink-500 
              text-transparent bg-clip-text"
         >
           Contacto
         </h2>
-        <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+        <p className="text-center md:text-left">
+          ¿Tienes un proyecto en mente? ¡Hablemos!
+        </p>
         {/* Contact info */}
         <div
           id="contact"
-          className="flex flex-col gap-4 border border-indigo-500/60 p-4 rounded-md bg-purple-500/10 min-w-xl max-w-xl"
+          className="flex flex-col gap-4 border border-indigo-500/60 p-4 rounded-md bg-purple-500/10 md:min-w-xl md:max-w-xl mx-4"
         >
           <p className="text-xl">Información de Contacto</p>
           <Link
@@ -343,9 +351,9 @@ export default function Home() {
           </p>
         </div>
         {/* Social */}
-        <div className="border border-purple-500/60 p-4 rounded-md bg-purple-500/10 min-w-xl max-w-xl">
+        <div className="flex flex-col gap-4 border border-indigo-500/60 p-4 rounded-md bg-purple-500/10 md:min-w-xl md:max-w-xl mx-4">
           <p className="text-xl">Redes Sociales</p>
-          <div className="flex gap-4 justify-center items-center mt-8">
+          <div className="flex gap-4 justify-center items-center mt-8 w-full">
             <Link
               href="https://github.com/dylanGonzalez09"
               target="_blank"
@@ -371,9 +379,13 @@ export default function Home() {
               <Instagram className="hover:text-pink-500" />
             </Link>{" "}
           </div>
+          <p className="text-center md:text-left">
+            Contáctame a través de mis redes sociales para consultas,
+            colaboraciones o proyectos.
+          </p>
         </div>
         {/* CV */}
-        <div className="flex flex-col gap-4 border border-purple-500/60 p-4 rounded-md bg-purple-500/10 min-w-xl max-w-xl">
+        <div className="flex flex-col gap-4 border border-purple-500/60 p-4 rounded-md bg-purple-500/10 md:min-w-xl md:max-w-xl mx-4">
           <p className="text-xl text-center">¿Listo para colaborar?</p>
           <p className="text-center">
             Descarga mi CV para más detalles sobre mi experiencia
