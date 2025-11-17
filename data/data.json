@@ -27,6 +27,16 @@
     ],
     "projects": [
         {
+            "title": "Surbantown E-commerce",
+            "description": "Desarrollé una tienda en línea utilizando Shopify, implementando una arquitectura moderna y escalable que automatiza procesos manuales como la gestión de ventas, el control de inventario y la actualización de productos. Esta solución optimizó la operación del negocio y mejoró significativamente la experiencia de compra de los usuarios",
+            "technologies": ["Shopify", "Hydrogen"],
+            "link": "https://www.surbantown.com",
+            "github": "",
+            "image": "surbantown.png",
+            "achievements": ["Implementé automatización de ventas e inventario para reducir tareas manuales", "Mejoré la conversión de la tienda al ofrecer una experiencia de compra más rápida y fluida para los clientes", "Mejoré la experiencia del usuario con un flujo de compra más rápido y eficiente"]
+
+        },
+        {
             "title": "Aplicación móvil desarrollada a la medida para cliente",
             "description": "Desarrollé una aplicación móvil para la gestión de boletos de lotería, permitiendo registrar números o billetes para la venta y calcular automáticamente los montos a pagar. Además, integré la impresión de tickets mediante una impresora térmica y un panel de administración que permite exportar los datos a un archivo Excel en formato tabular.",
             "technologies": ["FlutterFlow", "Supabase", "PostgreSQL"],

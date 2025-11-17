@@ -78,7 +78,7 @@ export default function Home() {
             </button>
           </div>
           <button
-            className="absolute bottom-18 md:bottom-30 right-0 left-0"
+            className="absolute bottom-20 md:bottom-30 right-0 left-0"
             onClick={() => scrollToView("experience")}
           >
             <ArrowBigDownDash
@@ -99,7 +99,7 @@ export default function Home() {
         >
           Experiencia laboral
         </h2>
-        <p className="text-center md:text-left">
+        <p className="text-center md:text-left mx-4 md:mx-0">
           Mi trayectoria profesional en el desarrollo de software
         </p>
         <div className="w-full mt-10 px-4">
@@ -146,7 +146,7 @@ export default function Home() {
         >
           Proyectos destacados
         </h2>
-        <p className="text-center md:text-left">
+        <p className="text-center md:text-left mx-4 md:mx-0">
           Algunos de mis proyectos más relevantes y sus resultados
         </p>
         <div className="md:grid md:grid-cols-2 w-full mt-10 flex flex-col gap-8 px-4">
@@ -234,7 +234,7 @@ export default function Home() {
         >
           Tecnologías
         </h2>
-        <p className="text-center md:text-left">
+        <p className="text-center md:text-left mx-4 md:mx-0">
           Stack tecnológico y herramientas que domino
         </p>
         <div className="relative overflow-hidden w-full mt-10">
@@ -318,7 +318,7 @@ export default function Home() {
         >
           Contacto
         </h2>
-        <p className="text-center md:text-left">
+        <p className="text-center md:text-left mx-4 md:mx-0">
           ¿Tienes un proyecto en mente? ¡Hablemos!
         </p>
         {/* Contact info */}
