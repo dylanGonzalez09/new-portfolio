@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Dylan González — Desarrollador de Software",
+    "description": "Desarrollador de software en Panamá especializado en aplicaciones web y móviles con React, Next.js, Node.js y React Native. Apasionado por crear soluciones tecnológicas con impacto social."
+  },
+  "nav": {
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "contact": "Contacto",
+    "switchLocale": "EN",
+    "switchLocaleLabel": "Switch to English",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "available": "Disponible para proyectos",
+    "command": "whoami",
+    "name": "Dylan González",
+    "roles": [
+      "Desarrollador de Software",
+      "Desarrollador Frontend",
+      "Desarrollador Backend",
+      "Desarrollador Móvil"
+    ],
+    "description": "Desarrollador de software con experiencia en proyectos de alta complejidad técnica para clientes empresariales exigentes. Apasionado por crear soluciones tecnológicas con impacto social, con enfoque en la experiencia del usuario y la responsabilidad en la entrega de proyectos.",
+    "location": "Panamá, Panamá",
+    "ctaContact": "Contáctame",
+    "ctaProjects": "Ver proyectos",
+    "scrollDown": "Bajar a experiencia"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "command": "cat ./experiencia.log",
+    "subtitle": "Mi trayectoria profesional en el desarrollo de software",
+    "items": [
+      {
+        "role": "Ingeniero de Software",
+        "company": "3Tech Panamá",
+        "period": "Nov. 2025 — Actualidad",
+        "location": "Panamá",
+        "highlights": [
+          "Diseño y desarrollo soluciones de software robustas y escalables para clientes empresariales exigentes, gestionando múltiples proyectos simultáneamente.",
+          "Contribuyo en la definición de requerimientos mediante interacción directa con clientes, traduciendo necesidades de negocio en especificaciones técnicas accionables.",
+          "Implemento integraciones con servicios en la nube (almacenamiento de archivos, llaves de API, manejo de secretos) y bases de datos relacionales, cuidando escalabilidad y seguridad.",
+          "Colaboro en equipos multidisciplinarios con gestión ágil de proyectos mediante Jira (tableros Kanban, épicas, cronogramas).",
+          "Aplico metodologías de desarrollo asistido por IA orientadas a especificaciones (SDD) para construir soluciones robustas y mantenibles."
+        ]
+      },
+      {
+        "role": "Desarrollador de Software (medio tiempo)",
+        "company": "Retina – CEMICIT AIP",
+        "period": "Oct. 2024 — Feb. 2025",
+        "location": "Coclé, Panamá",
+        "highlights": [
+          "Desarrollé un dashboard web monolítico con frontend, backend y base de datos MySQL, para la gestión centralizada de usuarios, roles y ubicaciones por parte de la UTP (Centro Regional de Coclé).",
+          "Desarrollé una aplicación móvil (Android/iOS) conectada al sistema, con localización en tiempo real, zonas seguras y envío de alertas a cuidadores.",
+          "Diseñé la plataforma con enfoque en accesibilidad y usabilidad para personas con discapacidad."
+        ]
+      },
+      {
+        "role": "Desarrollador de Software (medio tiempo)",
+        "company": "Retina – CEMICIT AIP",
+        "period": "Sep. 2023 — Feb. 2024",
+        "location": "Coclé, Panamá",
+        "highlights": [
+          "Desarrollé una aplicación Android para la gestión de medicamentos de adultos mayores y personas con discapacidades cognitivas, utilizando tecnología NFC.",
+          "Implementé alertas automatizadas vía SMS para mantener informados a los cuidadores.",
+          "Entregué la solución funcional cumpliendo con los tiempos y requerimientos establecidos."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos destacados",
+    "command": "ls ./proyectos --destacados",
+    "subtitle": "Algunos de mis proyectos personales más relevantes",
+    "demoLabel": "Ver demo",
+    "codeLabel": "Ver código",
+    "items": [
+      {
+        "name": "Surbantown E-commerce",
+        "description": "Tienda en línea construida con Shopify que automatiza la gestión de ventas, inventario y actualización de productos, mejorando la experiencia de compra de los usuarios.",
+        "tech": ["Shopify", "Hydrogen"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "ContigoApp",
+        "description": "Ecosistema web y móvil para el monitoreo en tiempo real de adultos mayores con discapacidad: geolocalización, zonas seguras, alertas push y panel administrativo para la UTP.",
+        "tech": ["React Native", "Expo", "Next.js", "MySQL", "Docker"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "Gestión de medicamentos con NFC",
+        "description": "Aplicación Android con tecnología NFC para la gestión de medicamentos de adultos mayores, con recordatorios automáticos y alertas para familiares y cuidadores.",
+        "tech": ["Java", "SQLite", "NFC", "Android Studio"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "Batisuerte",
+        "description": "Aplicación móvil para la gestión de boletos de lotería: registro de números, cálculo automático de pagos, impresión de tickets en impresora térmica y exportación a Excel.",
+        "tech": ["FlutterFlow", "Supabase", "PostgreSQL"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "Exoplanets-AI",
+        "description": "Visualización 3D interactiva de exoplanetas a escala real con datos científicos de la API de la NASA, construida durante la hackathon de Midudev y Vercel.",
+        "tech": ["Next.js", "Three.js", "TypeScript", "AI SDK"],
+        "link": "https://exoplanets-ai.vercel.app/",
+        "github": "https://github.com/dylanGonzalez09/exoplanets-ai"
+      },
+      {
+        "name": "TesloShop E-commerce",
+        "description": "E-commerce completo con autenticación de usuarios, carrito de compras y pagos en línea con PayPal, desarrollado como proyecto avanzado de Next.js.",
+        "tech": ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "PayPal"],
+        "link": "https://tesloshop-ecommerce.vercel.app/",
+        "github": "https://github.com/dylanGonzalez09/tesloshop-ecommerce"
+      },
+      {
+        "name": "AccesaYa",
+        "description": "Aplicación web que localiza sanitarios y estacionamientos accesibles en Panamá mediante GPS, mejorando la movilidad de personas con discapacidad motriz. Presentada en la JIC UTP.",
+        "tech": ["React", "Node.js", "Express", "MongoDB", "Leaflet"],
+        "link": "https://accesaya.vercel.app/",
+        "github": "https://github.com/dylanGonzalez09/proyecto-jic"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades técnicas",
+    "command": "./skills.sh --list",
+    "subtitle": "Stack tecnológico y herramientas que utilizo",
+    "groups": [
+      { "label": "Frontend", "items": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"] },
+      { "label": "Backend", "items": ["Node.js", "Express", "APIs REST", "SQL", "Python"] },
+      { "label": "Móvil", "items": ["Java", "React Native"] },
+      { "label": "DevOps e Infraestructura", "items": ["Docker"] },
+      { "label": "Desarrollo asistido por IA", "items": ["OpenSpec", "Claude Code", "Codex"] },
+      { "label": "Metodologías y herramientas", "items": ["Jira (Kanban)", "Git & GitHub", "Postman", "Figma"] }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "command": "cat ./educacion.md",
+    "subtitle": "Formación académica, certificaciones e idiomas",
+    "items": [
+      {
+        "institution": "Universidad Tecnológica de Panamá",
+        "degree": "Licenciatura en Desarrollo de Software",
+        "period": "2021 — 2025",
+        "location": "Panamá"
+      },
+      {
+        "institution": "Colegio Rodolfo Chiari",
+        "degree": "Bachiller en Tecnología",
+        "period": "2014 — 2020",
+        "location": "Panamá"
+      }
+    ],
+    "certificationsTitle": "Certificaciones",
+    "certifications": [{ "name": "Ethical Hacking", "issuer": "CertiProf" }],
+    "languagesTitle": "Idiomas",
+    "languages": [
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Inglés", "level": "Básico (A2)" }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "command": "./contacto.sh --init",
+    "subtitle": "¿Tienes un proyecto en mente? ¡Hablemos!",
+    "description": "Estoy disponible para proyectos freelance y oportunidades de empleo. Normalmente respondo en menos de 24 horas.",
+    "emailCta": "Escríbeme",
+    "downloadCv": "Descargar CV",
+    "cvPath": "/CV-spanish.pdf"
+  },
+  "footer": {
+    "text": "Diseñado y desarrollado por Dylan González",
+    "builtWith": "Construido con Next.js y Tailwind CSS"
+  }
+}

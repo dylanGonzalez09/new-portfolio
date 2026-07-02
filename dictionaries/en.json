@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Dylan González — Software Developer",
+    "description": "Software developer based in Panama, specialized in web and mobile applications with React, Next.js, Node.js and React Native. Passionate about building technology with social impact."
+  },
+  "nav": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact",
+    "switchLocale": "ES",
+    "switchLocaleLabel": "Cambiar a español",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "available": "Available for projects",
+    "command": "whoami",
+    "name": "Dylan González",
+    "roles": [
+      "Software Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Mobile Developer"
+    ],
+    "description": "Software developer with experience in technically complex projects for demanding enterprise clients. Passionate about building technology with social impact, with a strong focus on user experience, reliable delivery and fast adaptation to new technologies.",
+    "location": "Panama City, Panama",
+    "ctaContact": "Get in touch",
+    "ctaProjects": "View projects",
+    "scrollDown": "Scroll to experience"
+  },
+  "experience": {
+    "title": "Work experience",
+    "command": "cat ./experience.log",
+    "subtitle": "My professional journey in software development",
+    "items": [
+      {
+        "role": "Software Engineer",
+        "company": "3Tech Panamá",
+        "period": "Nov. 2025 — Present",
+        "location": "Panama",
+        "highlights": [
+          "Design and build robust, scalable software solutions for demanding enterprise clients, managing multiple projects simultaneously.",
+          "Contribute to requirements definition through direct client interaction, translating business needs into clear, actionable technical specifications.",
+          "Implement integrations with cloud services (file storage, API key generation, secrets management) and relational databases, with a focus on scalability and security.",
+          "Collaborate in multidisciplinary teams with agile project management in Jira (Kanban boards, epics, timelines).",
+          "Apply spec-driven, AI-assisted development methodologies (SDD) to speed up the delivery of robust, maintainable solutions."
+        ]
+      },
+      {
+        "role": "Software Developer (part-time)",
+        "company": "Retina – CEMICIT AIP",
+        "period": "Oct. 2024 — Feb. 2025",
+        "location": "Coclé, Panama",
+        "highlights": [
+          "Built a monolithic web dashboard with integrated frontend, backend and MySQL database, enabling centralized management of users, roles and locations for UTP (Coclé Regional Center).",
+          "Developed a mobile app (Android/iOS) connected to the system, with real-time location tracking, safe-zone configuration and caregiver alerts.",
+          "Designed the platform with a focus on accessibility and usability for people with disabilities."
+        ]
+      },
+      {
+        "role": "Software Developer (part-time)",
+        "company": "Retina – CEMICIT AIP",
+        "period": "Sep. 2023 — Feb. 2024",
+        "location": "Coclé, Panama",
+        "highlights": [
+          "Developed an Android app for medication management for older adults and people with cognitive disabilities, using NFC technology.",
+          "Implemented automated SMS alerts to keep caregivers informed.",
+          "Delivered a working solution on time and within the agreed requirements."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured personal projects",
+    "command": "ls ./projects --featured",
+    "subtitle": "Some of my most relevant work",
+    "demoLabel": "View demo",
+    "codeLabel": "View code",
+    "items": [
+      {
+        "name": "Surbantown E-commerce",
+        "description": "Online store built with Shopify that automates sales management, inventory control and product updates, improving the shopping experience.",
+        "tech": ["Shopify", "Hydrogen"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "ContigoApp",
+        "description": "Web and mobile ecosystem for real-time monitoring of older adults with disabilities: geolocation, safe zones, push alerts and an admin panel for UTP.",
+        "tech": ["React Native", "Expo", "Next.js", "MySQL", "Docker"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "NFC medication management",
+        "description": "Android app using NFC technology to manage medications for older adults, with automatic reminders and alerts for family members and caregivers.",
+        "tech": ["Java", "SQLite", "NFC", "Android Studio"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "Batisuerte",
+        "description": "Mobile app for lottery ticket management: number registration, automatic payment calculation, thermal ticket printing and Excel export.",
+        "tech": ["FlutterFlow", "Supabase", "PostgreSQL"],
+        "link": "",
+        "github": ""
+      },
+      {
+        "name": "Exoplanets-AI",
+        "description": "Interactive 3D visualization of exoplanets at real scale with scientific data from the NASA API, built during the Midudev and Vercel hackathon.",
+        "tech": ["Next.js", "Three.js", "TypeScript", "AI SDK"],
+        "link": "https://exoplanets-ai.vercel.app/",
+        "github": "https://github.com/dylanGonzalez09/exoplanets-ai"
+      },
+      {
+        "name": "TesloShop E-commerce",
+        "description": "Full e-commerce with user authentication, shopping cart and online payments via PayPal, built as an advanced Next.js project.",
+        "tech": ["Next.js", "Prisma", "NextAuth", "PostgreSQL", "PayPal"],
+        "link": "https://tesloshop-ecommerce.vercel.app/",
+        "github": "https://github.com/dylanGonzalez09/tesloshop-ecommerce"
+      },
+      {
+        "name": "AccesaYa",
+        "description": "Web app that locates accessible restrooms and parking spots in Panama using GPS, improving mobility for people with motor disabilities. Presented at JIC UTP.",
+        "tech": ["React", "Node.js", "Express", "MongoDB", "Leaflet"],
+        "link": "https://accesaya.vercel.app/",
+        "github": "https://github.com/dylanGonzalez09/proyecto-jic"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical skills",
+    "command": "./skills.sh --list",
+    "subtitle": "Tech stack and tools I work with",
+    "groups": [
+      { "label": "Frontend", "items": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"] },
+      { "label": "Backend", "items": ["Node.js", "Express", "REST APIs", "SQL", "Python"] },
+      { "label": "Mobile", "items": ["Java", "React Native"] },
+      { "label": "DevOps & Infrastructure", "items": ["Docker"] },
+      { "label": "AI-assisted development", "items": ["OpenSpec", "Claude Code", "Codex"] },
+      { "label": "Methodologies & tools", "items": ["Jira (Kanban)", "Git & GitHub", "Postman", "Figma"] }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "command": "cat ./education.md",
+    "subtitle": "Academic background, certifications and languages",
+    "items": [
+      {
+        "institution": "Universidad Tecnológica de Panamá",
+        "degree": "Bachelor's degree in Software Development",
+        "period": "2021 — 2025",
+        "location": "Panama"
+      },
+      {
+        "institution": "Colegio Rodolfo Chiari",
+        "degree": "High school diploma in Technology",
+        "period": "2014 — 2020",
+        "location": "Panama"
+      }
+    ],
+    "certificationsTitle": "Certifications",
+    "certifications": [{ "name": "Ethical Hacking", "issuer": "CertiProf" }],
+    "languagesTitle": "Languages",
+    "languages": [
+      { "name": "Spanish", "level": "Native" },
+      { "name": "English", "level": "Basic (A2)" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "command": "./contact.sh --init",
+    "subtitle": "Have a project in mind? Let's talk!",
+    "description": "I'm available for freelance projects and job opportunities. I usually reply within 24 hours.",
+    "emailCta": "Email me",
+    "downloadCv": "Download CV",
+    "cvPath": "/CV-english.pdf"
+  },
+  "footer": {
+    "text": "Designed and built by Dylan González",
+    "builtWith": "Built with Next.js and Tailwind CSS"
+  }
+}
